@@ -2,8 +2,11 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello Prep1 World!");
+        string firstName = "Logan";
+        string lastName = "Oyolo";
+
+        Console.WriteLine("Your name is " + lastName + ", " + firstName + " " + lastName + ".");
     }
 }
